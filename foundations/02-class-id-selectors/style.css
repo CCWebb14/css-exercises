@@ -1,0 +1,20 @@
+p{
+    background-color: rgb(168, 24, 96);
+    font-family: Fantasy, sans-serif;
+}
+
+.third{
+    font-size: 24px;
+}
+
+
+div.second{
+    color: blue;
+    font-size: 36px;
+}
+
+.fourth{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(142, 209, 142);
+}
