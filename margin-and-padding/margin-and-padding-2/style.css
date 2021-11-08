@@ -18,10 +18,13 @@ body {
 }
 
 .button-container {
+  display: block;
   background: #e3f4ff;
+  margin: 16px auto;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
 }
