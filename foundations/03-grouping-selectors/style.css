@@ -1,15 +1,16 @@
 /* .one .two{} would have worked as well */
 
-.main{
+.one,
+.two{
     font-size: 28px;
     font-family: "Helvetica", "Times New Roman", "sans-serif";
 }
 
-.main .one{
+.one{
     background-color: black;
     color: white;
 }
 
-.main .two{
+.two{
     background-color: yellow;
 }
