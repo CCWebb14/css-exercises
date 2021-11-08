@@ -1,0 +1,15 @@
+/* .one .two{} would have worked as well */
+
+.main{
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", "sans-serif";
+}
+
+.main .one{
+    background-color: black;
+    color: white;
+}
+
+.main .two{
+    background-color: yellow;
+}
