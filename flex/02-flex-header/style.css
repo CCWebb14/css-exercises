@@ -26,6 +26,11 @@ ul {
   /* Removes default padding of ~40px at 
   the beginning of the list */
   padding: 0px;
+  justify-content: space-between;
+
+
+  /* flex: 1 1 auto;
+  flex-direction: row; */
 }
 
 a {
@@ -37,15 +42,17 @@ a {
   text-decoration: none;
   /* elements within the list do not grow */
   /* This line does not do anything, why? */
-  /* Limited by the size of .right-links, which is defines by
+  /* Limited by the size of .right-links, which is defined by
   the default widths of the list elements */
   flex: 1 1 auto;
 }
 
 
-/* Didn't need left and right links */
-/* .left-links {
+.left-links {
+  /* Can increase size of the left header region */
+  /* flex: 1 1 auto;
+  display: flex; */
 }
 
 .right-links {
-} */
+} 
