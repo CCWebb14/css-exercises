@@ -1,6 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* Set the header as a flex object */
+  display: flex;
+  /* Spacing of the  lists and logo*/
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
 }
 
 .logo {
@@ -14,12 +20,30 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  /* Gap between list elements */
+  column-gap: 20px;
+  /* Removes default padding of ~40px at 
+  the beginning of the list */
+  padding: 0px;
 }
 
 a {
+
   font-size: 22px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  /* elements within the list do not grow */
+  /* This line does not do anything, why? */
+  flex: 1 1 auto;
 }
+
+
+/* Didn't need left and right links */
+/* .left-links {
+}
+
+.right-links {
+} */
