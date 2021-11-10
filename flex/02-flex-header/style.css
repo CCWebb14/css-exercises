@@ -37,6 +37,8 @@ a {
   text-decoration: none;
   /* elements within the list do not grow */
   /* This line does not do anything, why? */
+  /* Limited by the size of .right-links, which is defines by
+  the default widths of the list elements */
   flex: 1 1 auto;
 }
 
