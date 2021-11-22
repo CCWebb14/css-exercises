@@ -13,8 +13,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  
 }
 
 .mid-block > *{
@@ -24,7 +22,6 @@ body {
 .header {
   font-size: large;
   font-weight: bold;
-
 }
 
 .modal {
