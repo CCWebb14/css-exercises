@@ -34,33 +34,26 @@ input {
   display: flex;
   /* Spacing of the  lists and logo*/
   justify-content: space-between;
-  align-items: center;
   padding: 5px 10px;
 }
 
 .footer {
-  flex: 1 1 1;
-
-  /* Set the header as a flex object */
+  /* Set the footer as a flex object */
   display: flex;
   
-  /* Spacing of the  lists and logo*/
   justify-content: space-between;
-  align-items: center;
   padding: 5px 10px;
 
   background-color: rgb(189, 199, 197);
 }
 
 .content {
-flex: auto;
+  flex: auto;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  padding-bottom: 80px;
 }
 
 ul {
@@ -80,8 +73,4 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
   
-}
-
-.left-links{
-
 }
